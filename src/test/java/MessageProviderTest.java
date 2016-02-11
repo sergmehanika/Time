@@ -15,6 +15,6 @@ public class MessageProviderTest extends TestCase {
     public void  testLang() {
         MessageProvider provider = new MessageProvider();
         assertEquals("Good morning, World!", provider.getLocalMessage(TimesDay.MORNING, new Locale("en_US")));
-        assertEquals("Добрый день, МИР!", provider.getLocalMessage(TimesDay.DAY, new Locale("ru_RU")));
+        assertEquals("Dobruy den, Mup!", provider.getLocalMessage(TimesDay.DAY, new Locale("ru_RU")));
     }
 }
